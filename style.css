@@ -1,0 +1,33 @@
+#snap
+{
+    background-color: red;
+    height: 40px;
+    width: 150px;
+    font-size: 20px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+
+.btn-info:hover
+{
+    height: 60px;
+    width: 400px;
+    font-size: 30px;
+    background-color: blue;
+}
+
+canvas
+{
+    margin-top: 50px;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example
+{
+    from {box-shadow: 1px 1px 38px red;}
+    to {box-shadow: 1px 1px 38px yellow;}
+}
